@@ -47,15 +47,10 @@ label {
 input {
   border: 1px solid #808080;
   border-radius: 4px;
-  width: 360px;
+  width: 272px;
   height: 40px;
   color: #2e2f42;
-  padding: 8px 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
+
 }
 
 input:hover,
@@ -63,26 +58,13 @@ textarea:hover {
   border-color: #000;
 }
 
-textarea {
-  border: 1px solid #808080;
-  border-radius: 4px;
-  width: 360px;
-  height: 80px;
-  padding: 8px 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-}
 button {
 border: none;
   border-radius: 8px;
   padding: 8px 16px;
-  width: 95px;
+  width: 75px;
   height: 40px;
   background: #4e75ff;
-  margin-top: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
