@@ -1,7 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-
 
 ol,
 ul {
@@ -11,15 +10,18 @@ ul {
   padding-left: 0;
   padding-right: 0;
 }
+section {
+  margin-bottom: 24px;
+}
 
-input {
+#datetime-picker {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 274px;
   height: 36px;
   color: #2e2f42;
+  font-size: 18px;
 }
-
 
 button {
   border-radius: 8px;
@@ -31,17 +33,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: grey;
-  color: #FFFF;
- cursor: pointer;
-  
+  color: #ffff;
+  cursor: pointer;
 }
- 
+
 button:disabled {
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   cursor: not-allowed;
   opacity: 0.6;
 }
-
 
 .timer {
   display: flex;
@@ -61,8 +61,8 @@ button:disabled {
   color: #2e2f42;
 }
 .label {
-font-size: 16px;
-line-height: 1.5;
-color: #2e2f42;
-text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
 }
